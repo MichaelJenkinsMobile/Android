@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressDialog load;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
