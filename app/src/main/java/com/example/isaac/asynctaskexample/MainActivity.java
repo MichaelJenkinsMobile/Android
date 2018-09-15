@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         TarefaDownload download = new TarefaDownload();
         Log.i("AsyncTask", "AsyncTask senado chamado Thread: " + Thread.currentThread().getName());
         download.execute(endereco);
-    //}
+
 
     private class TarefaDownload extends AsyncTask<String, Void, Bitmap> {
         @Override
