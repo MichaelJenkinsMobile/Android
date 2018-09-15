@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText endereco;
     private ProgressDialog load;
     
-    private final String TAG = "AsyncTask";
+    private static final String TAG = "AsyncTask";
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
