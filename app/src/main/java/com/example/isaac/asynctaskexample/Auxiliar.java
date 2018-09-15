@@ -9,6 +9,7 @@ import java.net.URL;
 
 public class Auxiliar {
 
+    @Override
     public static Bitmap baixarImagem(String url) throws IOException {
         URL endereco;
         InputStream inputStream;
